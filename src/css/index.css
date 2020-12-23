@@ -528,7 +528,10 @@ footer #copyright {
 @media screen and (max-width: 750px) {
     .twopic, .threepic {padding: 0 5%;}
     .iframe-wrapper {max-width: 658px;}    
-    #no1 .space .foo.delighter img {max-width: 60%;}
+    #no1 .space .foo.delighter img {
+        max-width: 75%;
+        padding-bottom: 20px;    
+    }
     #monthly .img-layout {bottom: 11%;}
     .info {
         width: 88%;
