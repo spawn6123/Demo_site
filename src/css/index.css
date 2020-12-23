@@ -46,7 +46,7 @@ img {
     margin-right: auto;
     height: auto;    
 }
-#media .space img, #no1 .space img, #trial-flow .space img, #trial_plan > div > div img, #campaign .cp img, #content .slick-slide img {max-width: 90%;}
+#media .space img, #no1 .space img, #performer .space .delighter img, #trial-flow .space img, #trial_plan > div > div img, #campaign .cp img, #content .slick-slide img {max-width: 90%;}
 .trans-open {margin: 0 auto;}
 .studio_btn{
     width: 25%;
@@ -170,6 +170,7 @@ img {
 }
 .twopic a, .threepic a {display: inline-block;}
 section#performer .space img {margin-bottom: 40px;}
+section#performer .ttl, section#performer .space .delighter img {margin-bottom: 2em;}
 .twopic a {
     width: 48%;
     float: left;
@@ -270,26 +271,26 @@ section#performer .space img {margin-bottom: 40px;}
 
 /*  follow
 -----------------------------*/
-#follow a {
+#follow .space > a {
     display: inline-block;
     margin: 2em;
 }
-#follow a img {
+#follow .space > a img {
     width: 35vw;
     max-width: 246px;
 }
+#follow .twopic {max-width: 90%;}
 
 /*  footer
 -----------------------------*/
 footer {
-    margin-top: 37.5vw;
+    margin-top: 13vw;
     position: relative;
 }
 footer h2 {
     width: 40%;
     max-width: 257px;
     margin: 0 auto;
-    margin-top: 100px;
     position: relative;
 }
 footer h2 img {
@@ -511,7 +512,7 @@ footer #copyright {
   #media {padding-bottom: 20em;}    
   #media .ttl{margin-top: 6em;}
   #trial-flow {padding-top: 18em;}
-  footer {margin-top: 2em;}
+  footer {margin-top: 100px;}
   footer ul {
       font-size: 26px;
       margin-top: 100px;
@@ -527,11 +528,7 @@ footer #copyright {
 @media screen and (max-width: 750px) {
     .twopic, .threepic {padding: 0 5%;}
     .iframe-wrapper {max-width: 658px;}    
-/*    .threepic a {
-        width: 48%;
-        margin-left: auto;
-    }
-    .threepic a:nth-child(even) {float: right;}*/
+    #no1 .space .foo.delighter img {max-width: 60%;}
     #monthly .img-layout {bottom: 11%;}
     .info {
         width: 88%;
